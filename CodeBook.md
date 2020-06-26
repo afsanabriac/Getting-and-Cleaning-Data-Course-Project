@@ -1,7 +1,7 @@
 # Description of variables
 
 | __Variable__ __Name__ | __Class__ | __Description__ |
-
+| Mean | Numeric | Good job |
 
 # Sources
 
