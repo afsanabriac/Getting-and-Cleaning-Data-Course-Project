@@ -1,6 +1,6 @@
 # Description of variables
 
-__Variable __Name | __Class | __Description
+| __Variable__ __Name__ | __Class__ | __Description__ |
 
 
 # Sources
