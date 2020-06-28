@@ -111,7 +111,8 @@ After that, the id's of the activities were replaced with their labels and added
 	#and the type of study
 	testData <- data.frame(Subject = as.vector(subjectTestId$V1), 
 							Study = rep("Test", nrow(testData)), testData)
-```
+	```
+
 
 Finally, the data was merged to build the complete data set.
 
