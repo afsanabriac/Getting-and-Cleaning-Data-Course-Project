@@ -4,15 +4,6 @@ The composition of a variable is:
 
 **(t/f)(Body/Gravity)(Acc/Gyro)(Jerk/)(Mag/)-(std()/mean())-(X/Y/Z/)**
 
-
-First parenthesis refers if measurement cames from time domain signals "t" or from frequency domain signals ("f").
-Second parenthesis refers if measurement cames from "Body" signals or "Gravity" signals.
-Third parenthesis refers if measurement cames from accelerometer or gyroscope.
-Fourth parenthesis indicates if measurement cames from Jerk signals or not.
-Fifth parenthesis indicates if measurement was calculated using the Euclidean norm or not.
-Sixth parenthesis refers if the measurement is related with its standard deviation "std()" or with its mean "mean()".
-Seventh parenthesis indicates if the measurement is related with any of the three dimension axes: X, Y, Z, or none.
-
 - First parenthesis refers if measurement cames from time domain signals "t" or from frequency domain signals("f").
 - Second parenthesis refers if measurement cames from "Body" signals or "Gravity" signals.
 - Third parenthesis refers if measurement cames from accelerometer or gyroscope.
