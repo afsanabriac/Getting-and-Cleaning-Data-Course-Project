@@ -13,7 +13,7 @@ Sixth parenthesis refers if the measurement is related with its standard deviati
 Seventh parenthesis indicates if the measurement is related with any of the three dimension axes: X, Y, Z, or none.
 
 | __Variable__ __Names__ | __Class__ | __Description__ |__Content/Range__ |
-| :------------ | :---------------: | :---------------: |:-----: |
+| :------------ | :---------------: | :---------------: |:----- |
 | SubjectId | Numeric | Refers to the subject id in the observation. |Range: 1/30 |
 | Activity | Factor | Describes the activity realized by the subject in that observation. |Levels:  "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING". |
 | Study | Factor | Means if the observation studied was in training or in test. |Levels: "Train", "Study" |
