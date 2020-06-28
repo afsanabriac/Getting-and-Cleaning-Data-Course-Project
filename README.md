@@ -77,7 +77,7 @@ names(testData) <- variables
 
 After that, the id's of the activities were replaced with their labels and added to the data set.
 
-	- In the case of training data:
+- In the case of training data:
 
 	```R
 	#Build the vector 'activities', that contains each kind of activity according to encoding in training data
@@ -95,7 +95,7 @@ After that, the id's of the activities were replaced with their labels and added
 							Study = rep("Train", nrow(trainData)), trainData)
 	```
 
-	- In the case of test data:
+- In the case of test data:
 
 	```R
 	#Build the vector 'activities', that contains each kind of activity according to encoding in test data
