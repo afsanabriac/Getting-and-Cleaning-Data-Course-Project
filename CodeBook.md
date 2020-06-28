@@ -12,6 +12,12 @@ Fifth parenthesis indicates if measurement was calculated using the Euclidean no
 Sixth parenthesis refers if the measurement is related with its standard deviation "std()" or with its mean "mean()".
 Seventh parenthesis indicates if the measurement is related with any of the three dimension axes: X, Y, Z, or none.
 
+| Primer encabezado | Segundo encabezado |
+| ------------- | ------------- |
+| Contenido de la celda  | Contenido de la celda  |
+| Contenido de la celda  | Contenido de la celda  |
+
+
 | __Variable__ __Names__ | __Class__ | __Description__ |__Content/Range__ |
 | :------------ | :---------------: | -----: |
 | SubjectId | Numeric | Refers to the subject id in the observation. Its range is from 1 to 30.. |
