@@ -28,7 +28,7 @@ trainData <- read.csv("train/X_train.txt", sep = "", header = FALSE)
 testData <- read.csv("test/X_test.txt", sep = "", header = FALSE) 
 
 ```
-After, the files with the activity codes were imported too.
+After that, the files with the activity codes were imported too.
 
 ```R
 #Import activities from training
@@ -75,7 +75,7 @@ names(trainData) <- variables
 names(testData) <- variables
 ```
 
-After, the id's of the activities were replaced with their labels and added to the data set.
+After that, the id's of the activities were replaced with their labels and added to the data set.
 
 	In the case of training data:
 
