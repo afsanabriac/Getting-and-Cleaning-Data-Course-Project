@@ -147,6 +147,11 @@ rownames(step5Data) <- NULL
 finalData <- data.frame(SubjectId = subjects, Activity = activities, Study = study, step5Data)
 ```
 
+In the end, the data is written.
+
+```R
+write.table(finalData, "data.txt", row.names = FALSE)
+```
 
 
 						
