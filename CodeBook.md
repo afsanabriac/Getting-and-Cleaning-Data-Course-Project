@@ -12,11 +12,8 @@ Fifth parenthesis indicates if measurement was calculated using the Euclidean no
 Sixth parenthesis refers if the measurement is related with its standard deviation "std()" or with its mean "mean()".
 Seventh parenthesis indicates if the measurement is related with any of the three dimension axes: X, Y, Z, or none.
 
-
-
-
 | __Variable__ __Names__ | __Class__ | __Description__ |__Content/Range__ |
-| :------------ | :---------------: | :--------------- |:----- |
+| :------------ | :---------------: | :---------------: |:-----: |
 | SubjectId | Numeric | Refers to the subject id in the observation. |Range: 1/30 |
 | Activity | Factor | Describes the activity realized by the subject in that observation. |Levels:  "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING". |
 | Study | Factor | Means if the observation studied was in training or in test. |Levels: "Train", "Study" |
@@ -41,9 +38,9 @@ Seventh parenthesis indicates if the measurement is related with any of the thre
 | tBodyGyro-mean()-X | Numeric | Describes the mean of the variable tBodyGyro. |Range: -1/1 |
 | tBodyGyro-mean()-Y | Numeric | Describes the mean of the variable tBodyGyro. |Range: -1/1 |
 | tBodyGyro-mean()-Z | Numeric | Describes the mean of the variable tBodyGyro. |Range: -1/1 |
-| tBodyGyro-std()-X | Numeric | Describes the meastandard deviationn of the variable tBodyGyro. |Range: -1/1 |
-| tBodyGyro-std()-Y | Numeric | Describes the meastandard deviationn of the variable tBodyGyro. |Range: -1/1 |
-| tBodyGyro-std()-Z | Numeric | Describes the meastandard deviationn of the variable tBodyGyro. |Range: -1/1 |
+| tBodyGyro-std()-X | Numeric | Describes the standard deviation of the variable tBodyGyro. |Range: -1/1 |
+| tBodyGyro-std()-Y | Numeric | Describes the standard deviation of the variable tBodyGyro. |Range: -1/1 |
+| tBodyGyro-std()-Z | Numeric | Describes the standard deviation of the variable tBodyGyro. |Range: -1/1 |
 | tBodyGyroJerk-mean()-X | Numeric | Describes the mean of the variable tBodyGyroJerk. |Range: -1/1 |
 | tBodyGyroJerk-mean()-Y | Numeric | Describes the mean of the variable tBodyGyroJerk. |Range: -1/1 |
 | tBodyGyroJerk-mean()-Z | Numeric | Describes the mean of the variable tBodyGyroJerk. |Range: -1/1 |
@@ -86,6 +83,8 @@ Seventh parenthesis indicates if the measurement is related with any of the thre
 | fBodyBodyGyroMag-std() | Numeric | Describes the standard deviation of the variable fBodyBodyGyroMag. |Range: -1/1 |
 | fBodyBodyGyroJerkMag-mean() | Numeric | Describes the mean of the variable fBodyBodyGyroJerkMag. |Range: -1/1 |
 | fBodyBodyGyroJerkMag-std() | Numeric | Describes the standard deviation of the variable fBodyBodyGyroJerkMag. |Range: -1/1 |
+
+
 
 
 
